@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* ОБЩЕЕ */
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+    background-color: #1C1C1C;
+    color: #fff;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+
+.btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 165px;
+    height: 50px;
+
+    background-color: #f6762c;
+    border-radius: 5px;
+
+    font-size: 16px;
+    font-weight: 500;
+    transition: opacity 0.2s;
+}
+.btn:hover {
+    opacity: 0.8;
+}
+
+/* ШАПКА */
+.header {
+    padding: 25px;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header_list {
+    display: flex;
+    gap: 30px;
+    font-size: 14px;
+}
+.header_nav a {
+    font-size: 14px;
+    opacity: 0.7;
+    transition: opacity 0.2s;
+}
+.header_nav a:hover {
+    opacity: 1;
+}
+
+.header_nav a.active {
+    opacity: 1;
+}
+
+/*ПРИВЕТСТВИЕ*/
+
+.welcome {
+    margin-top: -100px;
+    padding: 240px 0; 
+    background-image: url("./images/welcome-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.welcome_subtitle {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    padding-bottom: 7px;
+    width: 160px;
+}
+
+.welcome_title {
+    margin: 0;
+    padding: 0;
+    font-size: 58px;
+    width: 555px;
+    padding-bottom: 37px;
+}
+
+.welcome_part {
+    margin: 0;
+    padding: 0;
+    width: 525px;
+    padding-bottom: 42px;
+    opacity: 0.7;
+
+}
+
+/*-КАРТОЧКИ*/
+
+.food-list {
+    padding-top: 115px;
+    padding-bottom: 120px;
+}
+
+.food-list .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.food-list_card {
+    text-align: center;
+    overflow: hidden;
+    background-color: #312f30;
+    width: 260px;
+    border-radius: 10px;
+    transition: opacity 0.2s;
+}
+
+.food-list_card:hover {
+    opacity: 0.8;
+}
+
+.food-list_image {
+    object-fit: cover;
+    width: 262px;
+    height: 175px;
+    max-width: 100%;
+}
+
+.food-list_title {
+    padding: 0;
+    margin: 0;
+    padding-top: 28px;
+    margin-bottom: 15px;
+    font-size: 20;
+}
+
+.food-list_desc {
+    padding: 0;
+    margin: 0;
+    padding-bottom: 42px;
+    opacity: 0.7;
+    width: 260px;
+    font-size: 16px;
+}
+
+/*Американ чизбургер*/
+
+.burger_king {
+    padding-bottom: 150px;
+}
+
+.burger_container {
+    background-color: #312f30;
+    background-size: cover;
+    height: 545px;
+}
+
+
+.burger_card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.burger_king_img {
+    padding-top: 25px;
+    margin: 0;
+    width: 550px;
+    height: 500px;
+}
+
+.burger_title {
+    font-size: 45px;
+    line-height: 26px;
+    padding-bottom: 25px;
+    margin: 0;
+
+}
+
+.part {
+    opacity: 0.7;
+}
+
+.price {
+    padding-top: 15px;
+    display: inline;
+    font-size: 20px;
+    color: #f0742c;
+}
+
+
+.text_frame {
+    width: 371px;
+    height: 215px;
+    margin: 0;
+    padding-left: 160px;
+}
+
+/*EXEMPLES*/
+
+.examples .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.name {
+    font-size: 30px;
+}
+
+.frame {
+    width: 265px;
+    height: 175px;
+    display: flex;
+    justify-content: center;
+}
+
+.Dairy {
+    width: 555px;
+    height: 300px;
+    background-image: url(./images/product-1.jpg);
+}
+
+
+.King {
+    width: 555px;
+    height: 300px;
+    background-image: url(./images/product-3.jpg);
+}
+
+.Pizza {
+    background-image: url(./images/product-2.jpg);
+    width: 555px;
+    height: 300px;
+}
+
+.Papa {
+    background-image: url(./images/product-4.jpg);
+    width: 555px;
+    height: 300px;
+}
